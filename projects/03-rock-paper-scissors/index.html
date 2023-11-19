@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Rock Paper Scissors</title>
+</head>
+
+<body>
+    <div class="player-container" id="player1-container">
+        <h2>Player 1</h2>
+        <div class="score" id="player1-score"></div>
+        <div class="choice-display" id="player1-choice-display"></div>
+        <div class="choices" id="player1-choices">
+            <button class="choice-btn" id="rock-btn">ROCK</button>
+            <button class="choice-btn" id="paper-btn">PAPER</button>
+            <button class="choice-btn" id="scissors-btn">SCISSORS</button>
+        </div>
+    </div>
+
+    <div class="player-container" id="player2-container">
+        <h2>Player 2</h2>
+        <div class="score" id="player2-score"></div>
+        <div class="choice-display" id="player2-choice-display"></div>
+    </div>
+
+    <div id="game-container">
+        <h1>ROCK-PAPER-SCISSORS</h1>
+        <div id="game-status">SHOW YOUR HAND TO START THE GAME!</div>
+        <div id="bottom-container">
+            <button id="reset-game-btn">RESET GAME</button>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
